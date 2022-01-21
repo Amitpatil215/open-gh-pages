@@ -18,9 +18,6 @@ function buttonClicked() {
                omiitBlobMaster, "_blank");
      });
 }
-// https:amitpatil215.github.io/interviewcake_educative_course/blob/master/Grokking%20the%20Coding%20Interview%20-%20Patterns%20for%20Coding%20Questions/1.%20Introduction/1%20Who%20should%20take%20this%20course.html
-// https://github.com/Amitpatil215/interviewcake_educative_course/blob/master/Grokking%20the%20Coding%20Interview%20-%20Patterns%20for%20Coding%20Questions/1.%20Introduction/1%20Who%20should%20take%20this%20course.html
-// let tabId = -1
 
 // chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
 //      if (message && message.type == 'page') {
