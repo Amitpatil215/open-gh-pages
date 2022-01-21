@@ -1,0 +1,16 @@
+{
+    "name": "open gh page",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Open your HTML file in github.io",
+    "content_script": [
+        {
+            "js": [
+                "init.js"
+            ],
+            "matches": [
+                "*://www.github.com/"
+            ]
+        }
+    ]
+}
