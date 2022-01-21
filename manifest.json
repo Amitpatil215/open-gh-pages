@@ -3,14 +3,24 @@
     "version": "0.0.1",
     "manifest_version": 2,
     "description": "Open your HTML file in github.io",
-    "content_script": [
+    "content_scripts": [
         {
             "js": [
                 "init.js"
             ],
             "matches": [
-                "*://www.github.com/"
+                "*://github.com/*/*.html"
             ]
         }
-    ]
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "browser_action": {}
 }
