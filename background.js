@@ -6,8 +6,13 @@ function buttonClicked() {
      chrome.tabs.getSelected(null, function (tab) {
           console.log(tab.url);
           let url = tab.url;
-          let replaceWithGithubIO = url.replace("https://github.com/Amitpatil215", "https://amitpatil215.github.io");
-          let omiitBlobMaster=replaceWithGithubIO.replace("/blob/master","");
+          let splittedArray=url.split("/");
+          const githubUsername=splittedArray[3];
+          const branch=splittedArray[6];
+          console.log(githubUsername);
+          console.log(branch);
+          let replaceWithGithubIO = url.replace(`https://github.com/${githubUsername}`, `https://${githubUsername}.github.io`);
+          let omiitBlobMaster=replaceWithGithubIO.replace(`/blob/${branch}`,"");
           console.log(omiitBlobMaster);
           window.open(
                omiitBlobMaster, "_blank");
