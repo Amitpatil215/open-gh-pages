@@ -1,4 +1,13 @@
 # Open GH Pages
+
+ ## How to use
+ ![open_gh](https://user-images.githubusercontent.com/54329870/150736965-197550be-bdab-46ae-95ea-f11ce6a57120.gif)
+
+ 
+ - Pin the extension
+ - click on the icon when you navigate to html file in the repository
+
+## Instalation 
 ### Step1 : Navigate to 
  ```chrome://extensions``` in chrome
 
@@ -11,6 +20,4 @@
     
 You need to enable github pages from the repository setting
 
- ## How to use
- - Pin the extension
- - click on the icon when you navigate to html file in the repository
+
