@@ -7,7 +7,7 @@
  - Pin the extension
  - click on the icon when you navigate to html file in the repository
 
-## Instalation 
+## Installation 
 ### Step1 : Navigate to 
  ```chrome://extensions``` in chrome
 
